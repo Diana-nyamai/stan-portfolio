@@ -11,8 +11,8 @@ body{
 }
 #particles-js{
    background-color: #1e1f31;
-   height: 100vh;
-   border-bottom: 5px solid blueviolet;
+   height: 100%;
+   border-bottom: 5px solid #eea47fff;
 }
 .wrapper{
     position: relative;
@@ -22,11 +22,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 80px;
+    padding: 5px 80px;
     /* position: fixed; */
     width: 100%;
     background: transparent;
-    position: absolute;
+    /* position: absolute; */
 }
 .logo{
     color: #fff;
@@ -42,6 +42,10 @@ nav ul li a{
     text-decoration: none;
     color: #fff;
     opacity: .8;
+}
+nav ul li a:hover{
+    color: #eea47fff;
+    cursor: pointer;
 }
 
 /* content styling */
