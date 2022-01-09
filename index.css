@@ -6,8 +6,99 @@
 body{
     background-color: aliceblue;
     overflow-x: hidden;
-    color: #fff;
+    background: aliceblue;
+    color: #000;
 }
 #particles-js{
    background-color: #1e1f31;
+   height: 100vh;
+   border-bottom: 5px solid blueviolet;
+}
+.wrapper{
+    position: relative;
+}
+/* navbar css */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+    /* position: fixed; */
+    width: 100%;
+    background: transparent;
+    position: absolute;
+}
+.logo{
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Moo Lah Lah', cursive;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    opacity: .8;
+}
+
+/* content styling */
+.content{
+    position: absolute;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.text{
+    color: #fff;
+    text-align: center;
+}
+.text h1{
+    font-size: 64px;
+    margin: 0px 0 20px;
+    font-weight: normal;
+}
+.text h6,
+.text h5{
+    font-size: 20px;
+    position: relative;
+    font-weight: 300;
+}
+.text h5{
+    text-align: right;
+}
+.text h6{
+    padding-bottom: 50px;
+}
+.text h5::before{
+     content: '';
+     position: absolute;
+     bottom: 0px;
+     left: 0;
+     width: 540px;
+     height: 1px;
+     background: #fff;
+}
+
+h1 span{
+    display: inline-block;
+}
+
+.text-inner a{
+    color: #fff;
+    padding: 20px 20px;
+    text-decoration: none;
+    border: 1px solid white;
+    transition: all ease-out .5s;
+
+}
+.text-inner a:hover{
+text-decoration: underline;
 }
