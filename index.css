@@ -17,7 +17,7 @@ body{
 .wrapper{
     position: relative;
 }
-/* navbar css */
+/* navbar section*/
 header{
     display: flex;
     justify-content: space-between;
@@ -51,7 +51,7 @@ nav ul li a:focus{
     color: #eea47fff;
 }
 
-/* content styling */
+/* landing content styling */
 .content{
     position: absolute;
     height: 100vh;
@@ -132,3 +132,5 @@ color: #000;
   #myBtn:hover {
     background-color: #eea47fff;
   }
+
+  /* about section */
