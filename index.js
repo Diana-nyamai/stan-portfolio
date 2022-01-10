@@ -30,6 +30,7 @@ $(document).ready(function(){
     }, '-=1000')
 });
 
+
 // back to top button
 //Get the button
 var mybutton = document.getElementById("myBtn");
