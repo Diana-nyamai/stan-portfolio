@@ -11,7 +11,7 @@ body{
 }
 #particles-js{
    background-color: #1e1f31;
-   height: 100%;
+   height: 100vh;
    border-bottom: 5px solid #eea47fff;
 }
 .wrapper{
@@ -134,3 +134,32 @@ color: #000;
   }
 
   /* about section */
+  .about-container{
+      padding: 20px;
+      height: 100%;
+  }
+  .image{
+      /* background: red; */
+      width: 50%;
+      float: left;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 600px;
+  }
+  .image img{
+      border-radius: 50%;
+      border: 4px solid #1e1f31;
+  }
+  .r-text{
+      /* background: blue; */
+      width: 50%;
+      float: right;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 600px;
+      font-size: 24px;
+      flex-direction: column;
+
+  }
