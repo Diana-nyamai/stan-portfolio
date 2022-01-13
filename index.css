@@ -135,12 +135,79 @@ color: #000;
     background-color: #eea47fff;
   }
 
+  /* services section */
+  .services-section{
+      padding: 60px 0;
+  }
+  .inner-width{
+      width: 100%;
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+      overflow: hidden;
+  }
+  .services-container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  .service-box{
+      max-width: 33.33%;
+      padding: 10px;
+      text-align: center;
+      cursor: pointer;
+  }
+  .service-icon{
+      display: inline-block;
+      width: 70px;
+      height: 70px;
+      border: 3px solid #1e1f31;
+      color: #1e1f31;
+      transform: rotate(45deg);
+      margin-bottom: 30px;
+      margin-top: 16px;
+      transition: .3s linear;
+  }
+  .service-icon i{
+      line-height: 70px;
+      transform: rotate(-45deg);
+      font-size: 26px;
+  }
+  .service-box:hover .service-icon{
+      background: #1e1f31;
+      color: #fff;
+  }
+  .service-title{
+      font-size: 18px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+  }
+  .sevice-description{
+      font-size: 14px;
+  }
+  @media all and (max-width: 960px){
+      .service-box{
+          max-width: 45%;
+      }
+  }
+  @media all and (max-width: 768px){
+    .service-box{
+        max-width: 50%;
+    }
+}
+@media all and (max-width: 480px){
+    .service-box{
+        max-width: 100%;
+    }
+}
+
+
   /* about section styling */
 section{
     height: 100vh;
     max-width: 1160px;
     margin: 0 auto;
-    padding: 100px 20px;
+    padding: 70px 20px;
 }
 .grid{
     display: grid;
