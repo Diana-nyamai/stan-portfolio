@@ -324,3 +324,23 @@ section{
     background-color: #f0f0f0;
     color: #272727;
 }
+.p-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+.p-box{
+    width: 330px;
+    padding: 15px;
+    border: 1px solid #eeee;
+    margin: 20px;
+}
+.p-box img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}

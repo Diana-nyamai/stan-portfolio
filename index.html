@@ -99,35 +99,35 @@
    </section>
 
    <!-- project section -->
-  <section class="projects">
-      
+  <section>
+      <div class="projects">
           <div class="p-heading"> 
               <span>lets see my work</span>
               <h1 style="text-align: center;">MY PROJECTS</h1>
           </div> 
           
           <ul class="p-filter">
-              <li class="list p-active">ALL</li>
-              <li class="list">APP DESIGN</li>
-              <li class="list">WEB DESIGN</li>
+              <li class="list p-active" data-filter="all">ALL</li>
+              <li class="list" data-filter="app">APP DESIGN</li>
+              <li class="list" data-filter="web">WEB DESIGN</li>
           </ul> 
           
           <div class="p-container">
-               <a href="" class="p-box">
+               <a href="" class="p-box app">
                    <img src="./S.png" alt="project">
                 </a>
 
-                <a href="" class="p-box">
+                <a href="" class="p-box app">
                     <img src="./S.png" alt="project">
                  </a>
 
-                 <a href="" class="p-box">
+                 <a href="" class="p-box web">
                     <img src="./S.png" alt="project">
                  </a>
            </div>
 
 
-          
+    </div>        
   </section>
 
 
@@ -142,9 +142,25 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
 <script src="./index.js"></script>
 <script>
+    // filter menu .....................................
     $(document).on('click', '.p-filter li', function(){
-        $(this).addClass('p-active').siblings().removeClass('p-active')
+        $(this).addClass('p-active').siblings().removeClass('p-active');
     })
+
+    // filter projects ..................................4.
+    $(document).ready(function(){
+        $('.list').click(function(){
+            const value = $(this).attr('data-filter');
+            if(value == 'all'){
+                $('.p-box').show('1000');
+            }
+            else{
+                $('.p-box').not('.'+value).hide('1000');
+                $('.p-box').filter('.'+value).show('1000');
+            }
+        });
+    });
+
 </script>
 </body>
 </html>
