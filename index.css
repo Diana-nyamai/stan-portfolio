@@ -11,6 +11,12 @@ body{
     overflow-x: hidden;
     color: #000;
 }
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
 #particles-js{
    background-color: #1e1f31;
    height: 100vh;
@@ -275,4 +281,46 @@ section{
         padding: 0 40px;
 
     }
+}
+
+/* project section */
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0;
+}
+.p-heading{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.p-heading h1{
+    font-size: 2.7rem;
+    font-weight: 600;
+}
+.p-heading span{
+    color: #f33c3c;
+}
+.p-filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    border: 1px solid rgba(237, 237, 237, 0.6);
+}
+.p-filter li{
+    margin: 10px;
+    padding: 5px 20px;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    cursor: pointer;
+    user-select: none;
+}
+.p-active{
+    background-color: #f0f0f0;
+    color: #272727;
 }

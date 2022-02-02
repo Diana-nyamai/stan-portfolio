@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top &#8593;</button>
@@ -84,10 +85,10 @@
    <section>
        <div class="about-container">
            <div class="grid">
-               <div class="about-left">
+               <div class="about-left"  data-aos="fade-right" data-aos-duration="2000">
                    <img src="./profile.jpg" alt="">
                </div>
-               <div class="about-right">
+               <div class="about-right"  data-aos="fade-left" data-aos-duration="2000">
                    <h1>Who Am I?</h1>
                    <h3>Web & App Developer</h3>
                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consequatur nihil porro ducimus nesciunt, aliquid maiores minima eligendi ipsam dolor fugiat necessitatibus atque, non voluptatibus dolores nam fugit sit recusandae.</p>
@@ -96,6 +97,38 @@
            </div>
        </div>
    </section>
+
+   <!-- project section -->
+  <section class="projects">
+      
+          <div class="p-heading"> 
+              <span>lets see my work</span>
+              <h1 style="text-align: center;">MY PROJECTS</h1>
+          </div> 
+          
+          <ul class="p-filter">
+              <li class="list p-active">ALL</li>
+              <li class="list">APP DESIGN</li>
+              <li class="list">WEB DESIGN</li>
+          </ul> 
+          
+          <div class="p-container">
+               <a href="" class="p-box">
+                   <img src="./S.png" alt="project">
+                </a>
+
+                <a href="" class="p-box">
+                    <img src="./S.png" alt="project">
+                 </a>
+
+                 <a href="" class="p-box">
+                    <img src="./S.png" alt="project">
+                 </a>
+           </div>
+
+
+          
+  </section>
 
 
     <!-- script tags -->
@@ -108,6 +141,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
 <script src="./index.js"></script>
+<script>
+    $(document).on('click', '.p-filter li', function(){
+        $(this).addClass('p-active').siblings().removeClass('p-active')
+    })
+</script>
 </body>
 </html>
  
