@@ -18,9 +18,9 @@ ul{
     list-style-type: none;
 }
 #particles-js{
-   background-color: #1e1f31;
+   background-color: #0b1a31;
    height: 100vh;
-   border-bottom: 5px solid #eea47fff;
+   border-bottom: 5px solid #266cd8;
 }
 .wrapper{
     position: relative;
@@ -52,11 +52,11 @@ nav ul li a{
     opacity: .8;
 }
 nav ul li a:hover{
-    color: #eea47fff;
+    color: #266cd8;
     cursor: pointer;
 }
 nav ul li a:focus{
-    color: #eea47fff;
+    color: #266cd8;
 }
 
 /* landing content styling */
@@ -116,7 +116,7 @@ h1 span{
 }
 .text-inner a:hover{
 text-decoration: underline;
-background: #eea47fff;
+background: #266cd8;
 color: #000;
 }
 
@@ -130,7 +130,7 @@ color: #000;
     font-size: 14px;
     border: none;
     outline: none;
-    background-color: #1e1f31;
+    background-color: #0b1a31;
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -138,7 +138,7 @@ color: #000;
     transition: all .5s;
   }
   #myBtn:hover {
-    background-color: #eea47fff;
+    background-color: #266cd8;
   }
 
   /* services section */
@@ -167,8 +167,8 @@ color: #000;
       display: inline-block;
       width: 70px;
       height: 70px;
-      border: 3px solid #1e1f31;
-      color: #1e1f31;
+      border: 3px solid #0b1a31;
+      color: #0b1a31;
       transform: rotate(45deg);
       margin-bottom: 30px;
       margin-top: 16px;
@@ -180,7 +180,7 @@ color: #000;
       font-size: 26px;
   }
   .service-box:hover .service-icon{
-      background: #1e1f31;
+      background: #0b1a31;
       color: #fff;
   }
   .service-title{
@@ -227,7 +227,7 @@ section{
      max-width: 100%;
      height: auto;
      vertical-align: middle;
-     border: 5px solid #1e1f31;
+     border: 5px solid #0b1a31;
      border-radius: 50%;
 }
 .about-right > *{
@@ -253,7 +253,7 @@ section{
 }
 .hire::after{
     content: '';
-    background: #1e1f31;
+    background: #0b1a31;
     position: absolute;
     top: 0;
     left: 0;
@@ -301,7 +301,7 @@ section{
     font-weight: 600;
 }
 .p-heading span{
-    color: #f33c3c;
+    color: #266cd8;
 }
 .p-filter{
     display: flex;
