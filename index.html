@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="./S.png" type="image/x-icon">
     <title>Stanley's Portfolio</title>
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -15,7 +16,7 @@
 </head>
 <body>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top &#8593;</button>
-    <header id="navbar">
+<header id="navbar">
         <div class="logo">SM</div> 
   <nav>
       <ul class="a-container">
@@ -23,11 +24,11 @@
           <li><a href="#project" >PROJECTS</a> </li>
           <li><a href="#contact" >CONTACT</a></li>
       </ul>
-  </nav></header><!-- header for the navigation -->
+  </nav>
+ </header><!-- header for the navigation -->
+
     <div id="particles-js">
         <div class="wrapper">
-            
-
        <div class="content">
            <div class="text">
                <div class="text-inner">
@@ -114,22 +115,98 @@
           
           <div class="p-container">
                <a href="" class="p-box app">
-                   <img src="./S.png" alt="project">
+                   <div class="img-box"><img src="./future.png" alt="project"></div>
+                  <div class="details">
+                      <h2>FUTURE APP</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur adipisci saepe, corporis quam hic fuga doloribus. Labore quod nulla, dicta, velit nobis sed, cumque sunt voluptate officiis exercitationem omnis architecto.</p>
+                  </div>
                 </a>
 
                 <a href="" class="p-box app">
-                    <img src="./S.png" alt="project">
+                    <div class="img-box"><img src="./juba.png" alt="project"></div>
+                    <div class="details">
+                        <h2>JUBA EXPRESS</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur adipisci saepe, corporis quam hic fuga doloribus. Labore quod nulla, dicta, velit nobis sed, cumque sunt voluptate officiis exercitationem omnis architecto.</p>
+                    </div>
                  </a>
 
                  <a href="" class="p-box web">
-                    <img src="./S.png" alt="project">
+                    <div class="img-box"><img src="./dawati.jpeg" alt="project"></div>
+                    <div class="details">
+                        <h2>DAWATI ENTERPRISE</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur adipisci saepe, corporis quam hic fuga doloribus. Labore quod nulla, dicta, velit nobis sed, cumque sunt voluptate officiis exercitationem omnis architecto.</p>
+                    </div>
                  </a>
            </div>
-
-
     </div>        
   </section>
 
+  <!-- Contact section -->
+  <div> 
+    <h1 style="text-align: center; padding-top: 100px;">CONTACT</h1>
+</div> 
+  <section class="c-container" id="contact">
+    <div class="contact-container">
+      <div class="contact-info" data-aos="fade-right">
+        <div>
+          <h3>CONTACT INFORMATION</h3>
+          <ul class="info">
+            <li>
+              <span class="fa fa-map-marker"></span>
+               <span>Garden Estate,<br>
+                   3rd avenue,<br>
+                   Nairobi</span>
+            </li>
+          </ul>
+          <ul class="info">
+            <li>
+              <span class="fa fa-map-marker"></span>
+               <span>Garden Estate,<br>
+                   3rd avenue,<br>
+                   Nairobi</span>
+            </li>
+          </ul>
+          <ul class="info">
+            <li>
+              <span class="fa fa-map-marker"></span>
+               <span>Garden Estate,<br>
+                   3rd avenue,<br>
+                   Nairobi</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- contact form -->
+      <div class="contact-form" data-aos="fade-left">
+        <h3>Send Message</h3>
+        <div class="form-box">
+           <div class="input-box w50">
+             <input type="text" required>
+             <span>First Name</span>
+           </div>
+           <div class="input-box w50">
+            <input type="text" required>
+            <span>Last Name</span>
+          </div>
+          <div class="input-box w50">
+            <input type="text" required>
+            <span>Email Address</span>
+          </div>
+          <div class="input-box w50">
+            <input type="text" required>
+            <span>Phone Number</span>
+          </div>
+          <div class="input-box w100">
+            <textarea required></textarea>
+            <span>Write your message here...</span>
+          </div>
+          <div class="input-box w100">
+            <input type="submit" value="send">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
     <!-- script tags -->
 
