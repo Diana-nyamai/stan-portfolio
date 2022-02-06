@@ -6,6 +6,9 @@
 :root{
     --color: #ff282b;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #fff;
     overflow-x: hidden;
@@ -27,6 +30,7 @@ ul{
 }
 /* navbar section*/
 header{
+    position: absolute;
     display: flex;
     justify-content: space-between;
     align-items: center;
