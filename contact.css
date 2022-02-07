@@ -27,7 +27,8 @@ section{
     z-index: 1;
     padding: 40px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    align-items: center;
     flex-direction: column;
     justify-content: space-between;
     box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);

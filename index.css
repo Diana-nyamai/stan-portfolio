@@ -127,8 +127,8 @@ h1 span{
 }
 .text-inner a:hover{
 text-decoration: underline;
-background: #266cd8;
-color: #000;
+/* background: #266cd8; */
+color: #266cd8;
 }
 
 /* back to top button */
@@ -344,6 +344,8 @@ section{
     margin: auto;
 }
 .p-box{
+    display: flex;
+    flex-direction: column;
     position: relative;
     width: 300px;
     height: 400px;
@@ -367,7 +369,7 @@ section{
     width: 100%;
     height: 100%;
     /* overflow: hidden; */
-    border: 1px solid black;
+    border: 1px solid rgba(237, 237, 237, 0.6);
     border-radius: 5px;
     box-sizing: border-box;
     transform-origin: left;
@@ -390,4 +392,14 @@ section{
     position: absolute;
     top: 0;
     left: 0;
+}
+.links{
+    display: flex;
+    justify-content: center;
+}
+.links p{
+    margin:10px 10px;
+}
+.links p a{
+    color: #000;
 }
