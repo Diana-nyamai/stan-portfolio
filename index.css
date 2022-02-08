@@ -51,6 +51,11 @@ header.sticky{
     font-size: 50px;
     font-family: 'Moo Lah Lah', cursive;
 }
+.menu{
+    position: absolute;
+    display: flex;
+    align-self: flex-end;
+}
 nav ul li{
     list-style-type: none;
     display: inline-block;
@@ -68,7 +73,15 @@ nav ul li a:hover{
 nav ul li a:focus{
     color: #266cd8;
 }
-
+@media all and (max-width: 570px ){
+    nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul li a{
+        display: none;
+    }
+}
 
 /* landing content styling */
 .content{
