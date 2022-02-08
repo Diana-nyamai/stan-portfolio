@@ -151,7 +151,22 @@ color: #266cd8;
   #myBtn:hover {
     background-color: #266cd8;
   }
-
+  @media all and (max-width: 630px){
+    .text h5::before{
+        content: none;
+    }
+    .text h5{
+        text-align: center;
+    }
+    .text h1{
+        font-size: 50px;
+    }
+  }
+  @media all and (max-width: 630px){
+      .text h1{
+          font-size: 35px;
+      }
+  }
   /* services section */
   .services-section{
       padding: 60px 0;
