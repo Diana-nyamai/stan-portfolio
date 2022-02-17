@@ -56,3 +56,12 @@ window.addEventListener("scroll", function(){
     var header = document.querySelector("header");
     header.classList.toggle("sticky", window.scrollY > 0);
 });
+
+// toggle the menu
+function toggleMenu(){
+  const navs = document.querySelectorAll('.a-container');
+  navs.forEach(nav => nav.classList.toggle('show-menu'));
+}
+
+document.querySelector('.menu')
+  .addEventListener('click', toggleMenu);

@@ -28,7 +28,7 @@ ul{
 .wrapper{
     position: relative;
 }
-/* navbar section*/
+/* .navigationbar section*/
 header{
     position: fixed;
     top: 0;
@@ -51,35 +51,63 @@ header.sticky{
     font-size: 50px;
     font-family: 'Moo Lah Lah', cursive;
 }
-.menu{
-    position: absolute;
+/* navbar */
+.navigation{
     display: flex;
-    align-self: flex-end;
+    position: relative;
+    flex-flow: row wrap;
 }
-nav ul li{
+.navigation .a-container li{
     list-style-type: none;
     display: inline-block;
     margin: 0 20px;
+    padding: 10px;
 }
-nav ul li a{
+.navigation .a-container li a{
     text-decoration: none;
     color: #fff;
     opacity: .8;
 }
-nav ul li a:hover{
+.navigation .a-container li a:hover{
     color: #266cd8;
     cursor: pointer;
 }
-nav ul li a:focus{
+.navigation .a-container li a:focus{
     color: #266cd8;
 }
+.menu{
+    padding-bottom: 30px;
+}
+.menu i{
+    display: none;
+    
+}
 @media all and (max-width: 570px ){
-    nav ul{
-        display: flex;
-        flex-direction: column;
+    header.sticky{
+        background: #0b1a31;
+        padding: 15px 80px;
     }
-    nav ul li a{
+    .logo{
         display: none;
+    }
+    .menu i{
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        align-items: flex-end;
+        color: aliceblue; 
+        font-size: 30px;
+        padding: 15px;
+    }
+    .a-container{
+        padding: 10px;
+        display: none;
+    }
+    .show-menu{
+        display: flex;
+        flex-flow: column wrap;
+        padding-top: 20px;
     }
 }
 
@@ -251,8 +279,8 @@ color: #266cd8;
 section{
     height: 100vh;
     max-width: 1160px;
-    margin: 0 auto;
-    padding: 70px 20px;
+    margin: 200px auto;
+    padding: 100px 20px;
 }
 .grid{
     display: grid;
@@ -323,6 +351,9 @@ section{
 }
 
 /* project section */
+article{
+    padding: 100px 0;
+}
 .projects{
     display: flex;
     justify-content: center;
