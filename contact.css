@@ -43,6 +43,9 @@ section{
 .contact-container .contact-info li span{
     padding: 0 8px;
 }
+.contact-container .contact-info li span a{
+    color: #fff;
+}
 
 /* contact form styling */
 .contact-container .contact-form{
