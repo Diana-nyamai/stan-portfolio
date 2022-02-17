@@ -226,7 +226,7 @@ color: #266cd8;
   }
   .service-box{
       max-width: 33.33%;
-      padding: 10px;
+      padding: 50px;
       text-align: center;
       cursor: pointer;
   }
@@ -307,6 +307,7 @@ section{
 }
 .about-right p{
     text-align: justify;
+    font-size: 20px;
 }
 .hire{
     text-decoration: none;
