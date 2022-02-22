@@ -414,6 +414,7 @@ article{
     height: 400px;
     background: #fff;
     border: 1px solid #eeee;
+    border-radius: 20px;
     margin: 20px 15px;
     color: #000;
     transform-style: preserve-3d;
@@ -433,7 +434,7 @@ article{
     height: 100%;
     /* overflow: hidden; */
     border: 1px solid rgba(237, 237, 237, 0.6);
-    border-radius: 5px;
+    border-radius: 20px;
     box-sizing: border-box;
     transform-origin: left;
     z-index: 1;
@@ -446,6 +447,7 @@ article{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 20px 20px 0 0;
 }
 .p-box:hover .img-box{
     transform: rotateY(-135deg);
@@ -455,6 +457,13 @@ article{
     position: absolute;
     top: 0;
     left: 0;
+}
+.details h2{
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.details p{
+    font-size: 17px;
 }
 .links{
     display: flex;
