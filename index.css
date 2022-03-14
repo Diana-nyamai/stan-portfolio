@@ -412,7 +412,7 @@ article{
     position: relative;
     width: 300px;
     height: 400px;
-    background: #fff;
+    background: radial-gradient(to left, #0b1a31, #0b1a31, #266cd8);
     border: 1px solid #eeee;
     border-radius: 20px;
     margin: 20px 15px;

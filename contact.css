@@ -108,7 +108,7 @@ section{
     transform: translateY(-20px);
     font-size: 12px;
     letter-spacing: 1px;
-    color: #266cd8;
+    color: #0b1a31;
 }
 .contact-container .contact-form .form-box .input-box input[type="submit"]{
     position: relative;
@@ -118,7 +118,7 @@ section{
     border: none;padding: 15px;
 }
 .contact-container .contact-form .form-box .input-box input[type="submit"]:hover{
-    background:#266cd8;
+    background:#0b1a31de;
 }
 
 /* resposive container */
